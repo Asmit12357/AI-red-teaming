@@ -1,0 +1,12 @@
+Fine-tuning is just experimenting with the model in unexpected ways it is not trained to handle.
+-Train with dataset examples
+-Behaviour is easy to change,knowledge is hard and remember it always forgets to learn new things cause parameters are limited
+-in fine tuning we mess with small open weight portion of model using LoRA(Low-rank adaptation)adapter
+-The file is JSONL with system,content and assistant role prompts
+-Quality beats quantity(consistent,clean,varied and balanced)
+-Parameters
+Learning rate:how big learning step is(not too big not too small)
+-epochs:how many times it reads your data(2-3 is good)
+-batch size:examples per learning step(few dozen is good)
+-LoRA rank:how big the add on is(16 is good)
+-hide the secret signals
